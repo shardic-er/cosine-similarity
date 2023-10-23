@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cosine-similarity/static/css/main.82d0ae80.css",
+    "main.js": "/cosine-similarity/static/js/main.624c7d49.js",
+    "static/js/787.baa30cce.chunk.js": "/cosine-similarity/static/js/787.baa30cce.chunk.js",
+    "index.html": "/cosine-similarity/index.html",
+    "main.82d0ae80.css.map": "/cosine-similarity/static/css/main.82d0ae80.css.map",
+    "main.624c7d49.js.map": "/cosine-similarity/static/js/main.624c7d49.js.map",
+    "787.baa30cce.chunk.js.map": "/cosine-similarity/static/js/787.baa30cce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82d0ae80.css",
+    "static/js/main.624c7d49.js"
+  ]
+}
