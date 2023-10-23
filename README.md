@@ -1,63 +1,63 @@
 # RGB Vector Cosine Similarity Visualizer
 
-This project visualizes the cosine similarity between RGB vectors. Developed as a quick demonstration tool to help illustrate AI concepts.
+This project provides a visual representation of the cosine similarity between RGB vectors. Crafted swiftly as a hands-on demo tool for elucidating AI concepts.
 
-![Project Screenshot](readmeSRC.png) 
+![Project Screenshot](readmeSRC.png)
 
 ## Authors
 
 - **Eli Ronai**
 - **Austyn Harriman**
 
-Time taken: **2.5 hours**
+Crafted in just **2.5 hours** for a quick and insightful demo.
 
 ## Features
 
-- **Interactive Color Wheels**: Two color wheels to select and display RGB vectors.
+- **Interactive Color Wheels**: Dual color wheels to select and exhibit RGB vectors.
 
-- **Cosine Similarity & Theta**: Computes and displays the cosine similarity between vectors and the Theta (angle of difference).
+- **Cosine Similarity & Theta**: Computes and showcases the cosine similarity between vectors and the associated Theta (angle difference).
 
-- **3D Visualization**: Provides a 3D visualization of the two RGB vectors. Allows interaction via scrolling and panning to view from different angles.
+- **3D Visualization**: Presents a 3D visualization of the two RGB vectors, with scroll and pan interactions for varied viewing angles.
 
-- **Background Theta display**: Background gradient angle corresponds to Theta.
+- **Background Theta display**: Background gradient angle resonates with Theta.
 
 ## Quick Start
 
 ### Prerequisites
 
-Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/get-npm) installed.
+Ensure [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/get-npm) are installed on your system.
 
 ### Installation
 
-1. Clone the repo:
+1. Clone the repository:
 ```
 git clone https://github.com/shardic-er/cosine-similarity.git
 ```
-2. Navigate to the project directory:
+2. Step into the project directory:
 ```
 cd cosine-similarity
 ```
-3. Install the required npm packages:
+3. Install the necessary npm packages:
 ```
 npm install
 ```
 
 ### Usage
 
-Start the application:
+Initiate the application:
 ```
 npm start
 ```
-Once started, you can access the application at [http://localhost:3000](http://localhost:3000).
+Post initiation, the application is accessible at [http://localhost:3000](http://localhost:3000).
 
 ## Acknowledgements
 
-Thanks to all the libraries and tools used in this project.
-## Acknowledgements
+- **ChatGPT**: A pivotal contributor, aiding in both design and rapid development. Also, the author of this readme!
 
-- **ChatGPT** was indispensable in this project. Its capabilities and expertise enabled a significant portion of the project's success, especially in terms of the rapid turnaround time achieved.
-- **React** (`react` and `react-dom`): Our primary UI library.
-- **React Color Libraries** (`@uiw/react-color`, `react-color`, `react-color-wheel`, and `reactcss`): They provided a suite of color pickers and utilities.
-- **Three.js** (`three`): ChatGPT recommended tool for 3D visualizations.
+- **React** (`react` and `react-dom`): The backbone UI framework of the project.
 
-Special thanks go to the open-source community for creating and maintaining these invaluable resources.
+- **React Color Libraries** (`@uiw/react-color`, `react-color`, `react-color-wheel`, and `reactcss`): Enhanced the user experience with diverse color utilities.
+
+- **Three.js** (`three`): A noteworthy 3D visualization tool, recommended by ChatGPT.
+
+Kudos to the open-source ecosystem for nurturing these indispensable tools and libraries.
