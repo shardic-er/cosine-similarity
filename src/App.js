@@ -1,7 +1,5 @@
-import React, {useEffect, useState} from 'react';
-import logo from './logo.svg';
+import React, {useEffect} from 'react';
 import './App.css';
-import {WheelExample} from "./WheelExample";
 import GradientDiv from "./GradientDiv";
 import ColorChooser from "./ColorChooser";
 import ThreeDVectorVisualizer2 from "./ThreeDVectorVisualizer2";

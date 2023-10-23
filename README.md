@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# RGB Vector Cosine Similarity Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project visualizes the cosine similarity between RGB vectors. Developed as a quick demonstration tool to help illustrate AI concepts.
 
-## Available Scripts
+![Project Screenshot](readmeSRC.png) 
 
-In the project directory, you can run:
+## Authors
 
-### `npm start`
+- **Eli Ronai**
+- **Austyn Harriman**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Time taken: **2.5 hours**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Interactive Color Wheels**: Two color wheels to select and display RGB vectors.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Cosine Similarity & Theta**: Computes and displays the cosine similarity between vectors and the Theta (angle of difference).
 
-### `npm run build`
+- **3D Visualization**: Provides a 3D visualization of the two RGB vectors. Allows interaction via scrolling and panning to view from different angles.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Background Theta display**: Background gradient angle corresponds to Theta.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Quick Start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/get-npm) installed.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repo:
+```
+git clone your_repo_link_here
+```
+2. Navigate to the project directory:
+```
+cd path_to_your_project_directory
+```
+3. Install the required npm packages:
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start the application:
+```
+npm start
+```
+Once started, you can access the application at [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+## Acknowledgements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Thanks to all the libraries and tools used in this project.
+## Acknowledgements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **ChatGPT** was indispensable in this project. Its capabilities and expertise enabled a significant portion of the project's success, especially in terms of the rapid turnaround time achieved.
+- **React** (`react` and `react-dom`): Our primary UI library.
+- **React Color Libraries** (`@uiw/react-color`, `react-color`, `react-color-wheel`, and `reactcss`): They provided a suite of color pickers and utilities.
+- **Three.js** (`three`): ChatGPT recommended tool for 3D visualizations.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Special thanks go to the open-source community for creating and maintaining these invaluable resources.
