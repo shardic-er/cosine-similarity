@@ -31,11 +31,11 @@ Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/g
 
 1. Clone the repo:
 ```
-git clone your_repo_link_here
+git clone https://github.com/shardic-er/cosine-similarity.git
 ```
 2. Navigate to the project directory:
 ```
-cd path_to_your_project_directory
+cd cosine-similarity
 ```
 3. Install the required npm packages:
 ```
