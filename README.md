@@ -4,12 +4,17 @@ This project provides a visual representation of the cosine similarity between R
 
 ![Project Screenshot](readmeSRC.png)
 
+## Live Demo
+[Check out the live demo here!](https://shardic-er.github.io/cosine-similarity/)
+<iframe src="https://shardic-er.github.io/cosine-similarity/" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
+
+
 ## Authors
 
 - **Eli Ronai**
 - **Austyn Harriman**
 
-Crafted in just **2.5 hours** for a quick and insightful demo.
+Crafted in just **2.5 hours** for a quick and insightful demo, thanks to ChatGPT and the react-color library.
 
 ## Features
 
