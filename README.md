@@ -6,8 +6,6 @@ This project provides a visual representation of the cosine similarity between R
 
 ## Live Demo
 [Check out the live demo here!](https://shardic-er.github.io/cosine-similarity/)
-<iframe src="https://shardic-er.github.io/cosine-similarity/" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
-
 
 ## Authors
 
